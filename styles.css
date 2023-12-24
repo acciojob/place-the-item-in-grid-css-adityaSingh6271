@@ -1,18 +1,17 @@
-/* Apply necessary styles to create the grid */
+/* CSS styles for the grid */
 .holder {
   display: grid;
   width: 200px;
   height: 200px;
-  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
   grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-  gap: 2px; /* Adjust gap between grid items if needed */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  gap: 0; /* No gap between grid items */
 }
 
-/* Styling for individual grid items (optional) */
 .item {
-  background-color: lightblue;
+  /* Individual item properties */
+  border: 1px solid black; /* Example border for demonstration */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
 }
